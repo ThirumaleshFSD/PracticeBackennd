@@ -8,7 +8,7 @@ require('dotenv').config();
 const app=express();
 app.use(express.json());
 app.get('/thiru',(req,res)=>{
-    res.send("hello thiru");
+    res.send("hello thiru welcome to node js programming");
 })
 
 app.listen(4000,()=>{
